@@ -11,6 +11,7 @@ function App() {
         <p className="small">
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <span>hello, whats yoru name?</span>
         <p>
           <a
             className="App-link"
