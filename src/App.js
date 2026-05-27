@@ -1,5 +1,17 @@
 import './App.css';
 
+/**
+ * Root React component that renders the application's static UI.
+ *
+ * Returns a static JSX tree containing the app container and header:
+ * - app logo image
+ * - a heading paragraph with a heart icon
+ * - a small paragraph prompting to edit `src/App.js`
+ * - an inline span with the text "hello, whats yoru name? hhh"
+ * - a link to the React documentation
+ *
+ * @returns {JSX.Element} The rendered app UI.
+ */
 function App() {
   return (
     <div className="App">
